@@ -42,7 +42,6 @@ const sumbitPromises = (event) => {
       });
       delay += step;
   }
-  event.currentTarget.reset();
 };
 
 formInput.addEventListener("submit", sumbitPromises);
