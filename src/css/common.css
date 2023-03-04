@@ -57,3 +57,29 @@ img {
   height: 30px;
   text-transform: uppercase;
 }
+
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.label__promise {
+  display: flex;
+  flex-direction: column;
+} 
+
+input[type="number"] {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.promise__btn {
+  font-size: 20px;
+  border-radius: 20;
+  background-color: black;
+  color: white;
+  border-color: transparent;
+}
